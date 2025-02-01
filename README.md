@@ -36,6 +36,7 @@
 
 <img width="640" alt="Coverage" src="https://github.com/user-attachments/assets/7d6e059a-b0ee-4d92-bbdf-2fe16a4fe9e4" />
 
+本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
 
 ## 已知问题
  - 此字体可能在部分软件中无法正常使用。后续将提供 OTF 版本。
