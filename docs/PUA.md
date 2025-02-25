@@ -2,13 +2,15 @@
 此处给出该字体使用的所有私用区字符，按照 Unicode 升序排序。
 
 以下为本字体所有的私用区字符：
-![image](https://github.com/user-attachments/assets/42eb4172-d9f8-4a9f-90c5-04326fed3840)
+<img width="1193" alt="image" src="https://github.com/user-attachments/assets/3beac90e-f572-4c53-9698-f69f02431c35" />
+
 
 ## F2区
 - U+F200：“斑马字库”的合字，因品牌标识变更而弃用。
 - U+F201：“斑马工坊”的合字，因品牌标识变更而弃用。
 - U+F202：基于中国传媒大学校徽制作的像素图案。
 - U+F203：“经验+3”的合字。
+- U+F204：”Z Labs“标识。
 
 ## F3区
 - U+F300/U+F301：鹿字头。
