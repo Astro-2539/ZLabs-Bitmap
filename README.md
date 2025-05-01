@@ -9,12 +9,14 @@
 > **提示：** 本字体为开源项目，采用 OFL 许可证授权，您可以免费商用此字体（详见「授权」一节）。
 
 ## 字体示例
-（由于字形大规模调整，此处示例待更新）
-中文示例：
-![Sample-2](https://github.com/user-attachments/assets/a6a15eea-adb1-49a5-b8bc-24d10546c1de)
 
-日文示例（目前对日文的支持十分有限）：
-![Sample-1](https://github.com/user-attachments/assets/2ff7acd3-24b3-4860-ab90-323494221366)
+![幻灯片1](https://github.com/user-attachments/assets/7c1e111f-97df-40d3-a038-8b42944fad71)
+
+![幻灯片2](https://github.com/user-attachments/assets/4df08603-d38e-473d-b681-405cc7f35e8f)
+
+![幻灯片3](https://github.com/user-attachments/assets/595e7070-af64-4d80-a7dd-aac91c2c4fa4)
+
+![幻灯片4](https://github.com/user-attachments/assets/67ca1807-ab39-4033-b013-aca63cf78669)
 
 
 
