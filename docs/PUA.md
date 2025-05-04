@@ -2,7 +2,8 @@
 此处给出该字体使用的所有私用区字符，按照 Unicode 升序排序。
 
 以下为本字体所有的私用区字符：
-<img width="1193" alt="image" src="https://github.com/user-attachments/assets/3beac90e-f572-4c53-9698-f69f02431c35" />
+![image](https://github.com/user-attachments/assets/0b51770e-7d2e-4e78-b419-5d56eefb86c9)
+
 
 
 ## F2区
@@ -11,11 +12,15 @@
 - U+F202：像素徽标。
 - U+F203：“经验+3”的合字。
 - U+F204：“Z Labs”标识。
+- U+F205：“啊”的黑底方框形式。
+- U+F206：“对”的黑底方框形式。
 
 ## F3区
 - U+F300/U+F301：鹿字头。
 - U+F302：“直”的日标字形。在 Unicode 中，陆标和日标的“直”字形未分开编码。
 - U+F303：⿲彳重刂，“衝”的讹字，未收入 Unicode 中。¹
+- U+F304：“中专”的合字。
+- U+F305：“中專”的合字。
 
 ## 注释
 1. 该字见于游戏《绽放☆青春全力向前冲！》的繁体中文标题中：
