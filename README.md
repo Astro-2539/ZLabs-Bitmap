@@ -42,7 +42,7 @@
 
 字体对中文字符的具体支持情况如下：
 
-![CJK_Coverage](https://github.com/user-attachments/assets/46a27ac4-1039-4ae1-b851-d49b5a43a515)
+<img width="664" alt="CJK_Coverage" src="https://github.com/user-attachments/assets/6b067361-4ed6-4227-97de-2358735db900" />
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
 
