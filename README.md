@@ -1,30 +1,31 @@
-![Title](https://github.com/user-attachments/assets/73d855e7-76af-42ce-bd8e-da862a5aae51)
+![幻灯片1](https://github.com/user-attachments/assets/356e81d3-44ba-4447-bbf2-a0fe34f2194c)
 # Z Labs Bitmap
+
 「Z Labs Bitmap」是一款仿 [GNU Unifont](https://www.unifoundry.com/unifont/index.html) 风格的小型像素字体。这套字体在 11 * 12 的像素空间（实际占用 12 * 12 像素）中，尽可能还原了 Unifont 字体的特色。
 
-本字体遵循中国大陆标准规范字形，西文字体按等宽规格设计，同时字体被设置为具有“等宽”属性，可在某些对字体属性有要求的软件中使用。
+本字体遵循中国大陆规范字形，西文字体按等宽规格设计，同时字体被设置为具有“等宽”属性，可在某些对字体属性有要求的软件中使用。
 
-> **注意：** 此字体目前处于字形调整阶段。尽管此字体已经实现了对简体中文必要字符（GB/T 2312）的全面支持，但仍需对部分字形进行调整。目前的发布候选版本不代表最终版品质。
+> **注意：** 此字体目前处于字形调整阶段。尽管此字体已经实现了对简体中文必要字符（GB/T 2312）的全面支持，但仍需进行调整与扩充。目前的发布候选版本不代表最终版品质。
 
 > **提示：** 本字体为开源项目，采用 OFL 许可证授权，您可以免费商用此字体（详见「授权」一节）。
 
 ## 字体示例
 
-![幻灯片1](https://github.com/user-attachments/assets/d5c9e1d5-3dc3-4520-8cce-d34eefd50fc6)
+![幻灯片2](https://github.com/user-attachments/assets/d7495c71-809b-437f-80ce-fa0eb658ac0e)
 
-![幻灯片2](https://github.com/user-attachments/assets/77c2d5fc-c47f-4e7f-97e3-c6ec9d2e94c1)
+![幻灯片3](https://github.com/user-attachments/assets/2af41396-2029-40ac-ab53-eb755f01e5f5)
 
-![幻灯片3](https://github.com/user-attachments/assets/9867cc7b-ba24-42f8-bbc5-072816bef71e)
+![幻灯片4](https://github.com/user-attachments/assets/a38a69d9-340d-459e-8fe2-9e425ce51e56)
 
-![幻灯片4](https://github.com/user-attachments/assets/4aa6174f-cee6-4a19-862e-f0f941db9995)
+![幻灯片5](https://github.com/user-attachments/assets/ad7b3940-e1f5-4391-bab8-924fda8826a7)
 
 
 
 ## 字体覆盖范围
 | 字符  | 目前支持情况  | 计划支持情况  |
 | :------------: | :------------: | :------------: |
-|  简体中文 | 目前支持 GB/T 2312 中规定的所有汉字（共6763个），以及《通用规范汉字表》*¹中的部分汉字（7150个）。目前制作完成的字符可满足大多数简体中文用字需求。| 计划支持《通用规范汉字表》*¹中规定的所有汉字。  |
-| 繁体中文和日语汉字*²  |  目前仅制作了少量的繁体中文汉字和日语汉字。 |  未来会实现对繁体中文和日语的基本支持。 |
+|  简体中文 | 目前支持 GB/T 2312 中规定的所有汉字（共6763个），以及《通用规范汉字表》*¹中的部分汉字（7166个）。目前制作完成的字符可满足大多数简体中文用字需求。| 计划支持《通用规范汉字表》*¹中规定的所有汉字。  |
+| 繁体中文和日语汉字*²  |  目前制作了部分繁体中文汉字和日语汉字，已覆盖 JIS X 0213 的第一级汉字。 |  未来会支持更多字符。 |
 | 扩展区汉字支持 | 除《通用规范汉字表》规定的汉字之外，本字体额外收录了部分扩展区汉字，这些汉字包括地名生僻字（𧒽、𮀎等）、具有独特字形的汉字（𡆢、𦒹、𫯮、𠛸等）、部分类推简化字（𫛸、𮖱、𮹝等）。有关本字体收录的具体扩展区汉字，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/Plane2Characters.md)。 | 未来视情况添加更多字符。 |
 | 平假名和片假名  |  支持（含半角片假名） | -  |
 | 拉丁字母  |  支持半角与全角两种格式的英文字母。同时也制作了大写字母的其他形式（🅰🅱等）。 | 未来会增加对其他拉丁字母的支持。  |
@@ -43,13 +44,7 @@
 
 ![CJK_Coverage](https://github.com/user-attachments/assets/46a27ac4-1039-4ae1-b851-d49b5a43a515)
 
-
-
-
-
-
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
-
 
 
 
