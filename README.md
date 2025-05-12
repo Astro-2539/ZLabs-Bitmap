@@ -11,20 +11,19 @@
 
 ## 字体示例
 
-![幻灯片2](https://github.com/user-attachments/assets/d7495c71-809b-437f-80ce-fa0eb658ac0e)
+![幻灯片2](https://github.com/user-attachments/assets/632ec1d7-1f1b-4151-a812-c17ce84eb6cb)
 
-![幻灯片3](https://github.com/user-attachments/assets/2af41396-2029-40ac-ab53-eb755f01e5f5)
+![幻灯片3](https://github.com/user-attachments/assets/e82042ee-eb9e-4d24-b967-c0d28c6abc00)
 
-![幻灯片4](https://github.com/user-attachments/assets/a38a69d9-340d-459e-8fe2-9e425ce51e56)
+![幻灯片4](https://github.com/user-attachments/assets/11a94204-6bd5-4444-8371-1d0597af26ba)
 
-![幻灯片5](https://github.com/user-attachments/assets/ad7b3940-e1f5-4391-bab8-924fda8826a7)
-
+![幻灯片5](https://github.com/user-attachments/assets/a9413f64-b550-467a-ac9c-44261b05b669)
 
 
 ## 字体覆盖范围
 | 字符  | 目前支持情况  | 计划支持情况  |
 | :------------: | :------------: | :------------: |
-|  简体中文 | 目前支持 GB/T 2312 中规定的所有汉字（共6763个），以及《通用规范汉字表》*¹中的部分汉字（7166个）。目前制作完成的字符可满足大多数简体中文用字需求。| 计划支持《通用规范汉字表》*¹中规定的所有汉字。  |
+|  简体中文 | 目前支持 GB/T 2312 中规定的所有汉字（共6763个），以及《通用规范汉字表》*¹中的部分汉字（7174个）。目前制作完成的字符可满足大多数简体中文用字需求。| 计划支持《通用规范汉字表》*¹中规定的所有汉字。  |
 | 繁体中文和日语汉字*²  |  目前制作了部分繁体中文汉字和日语汉字，已覆盖 JIS X 0213 的第一级汉字。 |  未来会支持更多字符。 |
 | 扩展区汉字支持 | 除《通用规范汉字表》规定的汉字之外，本字体额外收录了部分扩展区汉字，这些汉字包括地名生僻字（𧒽、𮀎等）、具有独特字形的汉字（𡆢、𦒹、𫯮、𠛸等）、部分类推简化字（𫛸、𮖱、𮹝等）。有关本字体收录的具体扩展区汉字，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/Plane2Characters.md)。 | 未来视情况添加更多字符。 |
 | 平假名和片假名  |  支持（含半角片假名） | -  |
@@ -42,7 +41,7 @@
 
 字体对中文字符的具体支持情况如下：
 
-<img width="664" alt="CJK_Coverage" src="https://github.com/user-attachments/assets/6b067361-4ed6-4227-97de-2358735db900" />
+<img width="664" alt="CJK_Coverage" src="https://github.com/user-attachments/assets/b90687cf-5fe0-46f6-af47-1c447e31bfc5" />
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
 
