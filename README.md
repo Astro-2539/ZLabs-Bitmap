@@ -1,4 +1,5 @@
-![幻灯片1](https://github.com/user-attachments/assets/356e81d3-44ba-4447-bbf2-a0fe34f2194c)
+![幻灯片1](https://github.com/user-attachments/assets/9537e38d-ea4f-4de2-b5cb-adc114365bd4)
+
 # Z Labs Bitmap
 
 「Z Labs Bitmap」是一款仿 [GNU Unifont](https://www.unifoundry.com/unifont/index.html) 风格的小型像素字体。这套字体在 11 * 12 的像素空间（实际占用 12 * 12 像素）中，尽可能还原了 Unifont 字体的特色。
@@ -43,7 +44,7 @@
 
 字体对中文字符的具体支持情况如下：
 
-![CJK_Coverage](https://github.com/user-attachments/assets/10efbfcb-d5d1-417f-8654-248813e29994)
+![CJK_Coverage](https://github.com/user-attachments/assets/dc4722d9-420e-48ca-865d-8146de8d6559)
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
 
