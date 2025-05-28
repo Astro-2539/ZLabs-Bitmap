@@ -2,7 +2,8 @@
 此处给出该字体使用的所有私用区字符，按照 Unicode 升序排序。
 
 以下为本字体所有的私用区字符：
-![image](https://github.com/user-attachments/assets/0b51770e-7d2e-4e78-b419-5d56eefb86c9)
+<img width="1673" alt="image" src="https://github.com/user-attachments/assets/d219988a-f705-4cce-985b-fd779ca08210" />
+
 
 
 
@@ -21,6 +22,7 @@
 - U+F303：⿲彳重刂，“衝”的讹字，未收入 Unicode 中。²
 - U+F304：“中专”的合字。
 - U+F305：“中專”的合字。
+- U+F306：⿱神人，和制汉字，未收入 Unicode 中。
 
 ## 注释
 1. 在 Unicode 中，陆标和日标的“直”字形未分开编码。
