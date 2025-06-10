@@ -51,7 +51,7 @@
 
 字体对中文字符的具体支持情况如下：
 
-![CJK_Coverage](https://github.com/user-attachments/assets/50884e40-5d2b-4ca5-a051-281797cd74f4)
+![CJK_Coverage](https://github.com/user-attachments/assets/98401496-bfd9-4a78-aa57-8911c507714f)
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
 
