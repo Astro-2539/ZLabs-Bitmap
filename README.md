@@ -4,7 +4,7 @@
 
 「Z Labs Bitmap」是一款以 [GNU Unifont](https://www.unifoundry.com/unifont/index.html) 为灵感而制作的小型像素字体。这套字体在 11 * 12 的像素空间（实际占用 12 * 12 像素）中，借鉴了 Unifont 字体的部分特征，同时进行创造性转化而成。
 
-字体目前已基本支持简体中文、繁体中文、日语。本字体遵循中国大陆规范字形，西文字体按等宽规格设计，同时字体被设置为具有“等宽”属性，可在某些对字体属性有要求的软件中使用。
+字体目前已基本支持简体中文、繁体中文、日语。本字体遵循中国大陆规范字形，西文字体按等宽规格设计。
 
 > [!WARNING]
 > 
@@ -54,6 +54,37 @@
 ![CJK_Coverage](https://github.com/user-attachments/assets/98401496-bfd9-4a78-aa57-8911c507714f)
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
+
+## 从工程文件构建字体
+
+本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。下面是如何从工程文件 [（ZLabsBitmap.kbitx）](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/ZLabsBitmap.kbitx) 构建并发布字体的过程。
+
+过程中使用了 Bits'n'Picas （用于将工程文件转换为第一级 TTF）、FontForge（用于编辑数据并生成第二级 TTF）和[utils/fix_mono](https://github.com/Astro-2539/ZLabs-Bitmap/tree/main/utils/fix_mono)下的 `fix_mono.py`（用于修复等宽字体间距问题）。
+
+1. 在 Bits'n'Picas 所在文件夹下运行下列命令：
+```
+java -jar BitsNPicas.jar convertbitmap -f ttf -o "ZLabsBitmap_nightly.ttf" "ZLabsBitmap.kbitx"
+```
+或打开 `BitsNPicas.jar` 通过 GUI 界面将字体导出为 PDF。
+> **注意：**
+>
+>  通过 Bits'n'Picas 生成的 TTF 文件无法在大多数软件中使用。因此考虑通过下面的步骤对字体进行调整。注意调整的方式并不唯一。如果您愿意，您也可以通过命令行等其他方式对字体进行调整。
+
+2. 使用 FontForge 软件打开上一步中生成的 TTF 字体。
+    1. 在“PS字形名称”选项卡中，将“粗细”更改为 Regular。
+    2. 在“一般”选项卡中，勾选“有垂直尺寸”选项。
+    3. 在“OS/2”的“其他”选项卡中，将“OS/2版本”改为4，将“粗细类属”改为400，将“PFM字族”改为等宽体。
+    4. 在“OS/2”的“尺寸”选项卡中，将“Typo Linegap”和“HHead Linegap”改为100。
+       > 此步骤的目的是增加默认行间距，以避免纵向粘连问题。
+    5. 在“OS/2”的“特征”选项卡中，将“比例”属性改为“单一间距。
+       > 本字体制作时按照等宽规格制作。此步骤的目的是为字体声明“等宽”属性，以使得该字体可在对“等宽”属性有要求的软件中使用。
+       >
+       > 声明此属性后，如果直接导出，会出现字符间距异常的问题。因此，稍后将通过 `fix_mono` 解决此问题。
+    6. 在“OS/2”的“字符集”选项卡中，在微软编码页中勾选“默认”。
+    7. 按需求修改其他属性，并导出第二级 TTF。
+
+3. 将上一步导出的 TTF 文件放入`utils/fonts/TTF`中，并运行 `utils/fix_mono/build.bat` 修复字符间距问题。生成的新文件会覆盖原有文件。此时的字体可正常安装使用。
+    
 
 
 
