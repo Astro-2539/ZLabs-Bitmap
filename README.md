@@ -16,7 +16,7 @@
 > 
 > 这是一个开源项目，采用 [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) 许可证授权。您可以免费商用此字体。
 >
-> 本字体另有日语字形变体：[Z Labs Bitmap JP](https://github.com/Astro-2539/ZLabs-Bitmap-JP)
+> 本字体另有港标字形变体：[Z Labs Bitmap HC](https://github.com/Astro-2539/ZLabs-Bitmap-HC) 及日语字形变体：[Z Labs Bitmap JP](https://github.com/Astro-2539/ZLabs-Bitmap-JP)
 > 
 
 ## 字体示例
