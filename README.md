@@ -16,20 +16,20 @@
 > 
 > 这是一个开源项目，采用 [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) 许可证授权。您可以免费商用此字体。
 >
-> 本字体另有港标字形变体：[Z Labs Bitmap HC](https://github.com/Astro-2539/ZLabs-Bitmap-HC) 及日语字形变体：[Z Labs Bitmap JP](https://github.com/Astro-2539/ZLabs-Bitmap-JP)
+> 本字体另有港标字形变体及日语字形变体，适合在特定的语言环境下使用（详见「[变体字形](https://github.com/Astro-2539/ZLabs-Bitmap/main/README.md#%E5%8F%98%E4%BD%93%E5%AD%97%E5%BD%A2)」一节）。
 > 
 
 ## 字体示例
 
-![幻灯片2](https://github.com/user-attachments/assets/d66931b9-2504-4960-b69c-b1b18a37a0a9)
+![幻灯片2](https://github.com/user-attachments/assets/53a64143-45ea-4cd6-b59d-7a9b76364213)
 
-![幻灯片3](https://github.com/user-attachments/assets/ce40b5d9-408c-4681-a7a2-98be7369a9f3)
+![幻灯片3](https://github.com/user-attachments/assets/f72146da-c688-4b1e-934d-b20d3156be3b)
 
-![幻灯片4](https://github.com/user-attachments/assets/104421ff-dd29-459d-8ad9-e4388a9fa4b8)
+![幻灯片4](https://github.com/user-attachments/assets/c8b1a074-3a03-4564-abda-d80eb71d15b9)
 
-![幻灯片5](https://github.com/user-attachments/assets/f1a4ffbb-84de-40ac-b3d1-fceab5ebfb84)
+![幻灯片5](https://github.com/user-attachments/assets/52531848-75a2-48a1-93c1-004ccde21e68)
 
-![幻灯片6](https://github.com/user-attachments/assets/9aac6348-38a8-47b7-b84c-dbd0a433a9be)
+![幻灯片6](https://github.com/user-attachments/assets/ccd3fc75-4f9c-4fd1-91da-255a1b1acfa0)
 
 
 ## 字体覆盖范围
@@ -49,13 +49,23 @@
 >
 > 1. 《通用规范汉字表》中的部分简体汉字位于第二平面（如“𤩽”、“𬞟”、“𬱖”、“𩽾”、“𩾌”等），较难输入，而这些汉字的繁体大多位于基本平面，更易输入。本字体也一并为这些汉字制作了繁体支持。
 >
-> 2. 在日语环境下可以考虑使用日语字形变体：[Z Labs Bitmap JP](https://github.com/Astro-2539/ZLabs-Bitmap-JP)。
+> 2. 在繁体中文、日语环境下可以考虑使用香港/日语字形变体（详见「[变体字形](https://github.com/Astro-2539/ZLabs-Bitmap/main/README.md#%E5%8F%98%E4%BD%93%E5%AD%97%E5%BD%A2)」一节）。
 
 字体对中文字符的具体支持情况如下：
 
 ![CJK_Coverage](https://github.com/user-attachments/assets/f4d06497-91ed-4cc4-89c0-bc4cd4d9935e)
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
+
+## 变体字形
+
+本字体遵循中国大陆字形。另有遵循中国香港字形的 [Z Labs Bitmap HC](https://github.com/Astro-2539/ZLabs-Bitmap-HC) 及遵循日本字形的 [Z Labs Bitmap JP](https://github.com/Astro-2539/ZLabs-Bitmap-JP) 变体，更适宜在相关语言环境中使用。
+
+有关变体字形的更多信息，请访问相关项目页面。
+
+![幻灯片7](https://github.com/user-attachments/assets/476e0ab1-3f58-4083-9ba8-52b90345e1ea)
+
+
 
 ## 从工程文件构建字体
 
