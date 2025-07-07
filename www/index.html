@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Z Labs Bitmap</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 id="title" class="title">Z Labs Bitmap</h1>
+</header>
+
+<main class="main">
+    <div class="options">
+        <label class="option">
+            <input id="font-sc" name="font_style" type="radio" onchange="onFontChange('SC')" checked>
+            <span></span>
+            SC
+        </label>
+        <label class="option">
+            <input id="font-hc" name="font_style" type="radio" onchange="onFontChange('HC')">
+            <span></span>
+            HC
+        </label>
+        <label class="option">
+            <input id="font-jp" name="font_style" type="radio" onchange="onFontChange('JP')">
+            <span></span>
+            JP
+        </label>
+    </div>
+
+    <label>
+        <textarea id="input-box" class="input-box">
+我们度过的每个平凡的日常，也许就是连续发生的奇迹。
+我們度過的每個平凡的日常，也許就是連續發生的奇蹟。
+日々、私たちが過ごしている日常は、実は奇跡の連続なのかもしれない。
+THE QUICK BROWN FOX JUMPS OVER A LAZY DOG.
+the quick brown fox jumps over a lazy dog.
+0123456789
+        </textarea>
+    </label>
+</main>
+
+<div class="footer">
+    <span>© 2025</span>
+    <a href="https://github.com/Astro-2539" target="_blank">Astro-2539</a>
+    <span> · </span>
+    <a href="https://github.com/Astro-2539/ZLabs-Bitmap" target="_blank">Source Code</a>
+</div>
+
+<script src="js/index.js" type="module"></script>
+
+</body>
+</html>
