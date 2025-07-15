@@ -16,8 +16,11 @@
 > 
 > 这是一个开源项目，采用 [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) 许可证授权。您可以免费商用此字体。
 >
-> 本字体另有港标字形变体及日语字形变体，适合在特定的语言环境下使用（详见「[变体字形](https://github.com/Astro-2539/ZLabs-Bitmap/main/README.md#%E5%8F%98%E4%BD%93%E5%AD%97%E5%BD%A2)」一节）。
+> 本字体另有港标（HC）字形变体及日语（JP）字形变体，适合在特定的语言环境下使用（详见「[变体字形](https://github.com/Astro-2539/ZLabs-Bitmap/main/README.md#%E5%8F%98%E4%BD%93%E5%AD%97%E5%BD%A2)」一节）。
+
+> [!IMPORTANT]
 > 
+> 我们正在计划重构字体的导出模块，并实现三种字形变体（CN/HC/JP）统一管理（见[PR #1](https://github.com/Astro-2539/ZLabs-Bitmap/pull/1)）。届时三种字形变体版本将统一发布。
 
 ## 字体示例
 
@@ -53,7 +56,7 @@
 
 字体对中文字符的具体支持情况如下：
 
-![CJK_Coverage](https://github.com/user-attachments/assets/f4d06497-91ed-4cc4-89c0-bc4cd4d9935e)
+<img width="1297" height="1113" alt="CJK_Coverage" src="https://github.com/user-attachments/assets/ba77a09b-3bea-4ba4-ab97-1aeed63cc8bd" />
 
 本字体在 Unicode 私有区定义了部分字符，详见[此处](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/docs/PUA.md)。
 
