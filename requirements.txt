@@ -1,0 +1,3 @@
+fonttools==4.59.0
+kbitfont==0.0.4
+pixel_font_builder==0.0.37
