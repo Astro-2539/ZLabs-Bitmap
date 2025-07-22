@@ -31,6 +31,8 @@
 
 对于 HC 和 JP 变体，具有两种不同的版本：常规版本仅包含已经完成对应字形制作的字符，Fallback版本使用陆标字形填充其余汉字字符。
 
+日常建议使用常规版本，Fallback版本建议仅在特殊情况下使用。
+
 （待完善）
 
 <img width="4000" height="2250" alt="幻灯片5" src="https://github.com/user-attachments/assets/b44bdc2f-07d8-4368-904d-bfcafa239889" />
