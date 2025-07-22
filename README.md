@@ -1,10 +1,10 @@
-![幻灯片1](https://github.com/user-attachments/assets/9537e38d-ea4f-4de2-b5cb-adc114365bd4)
+<img width="2537" height="974" alt="幻灯片1" src="https://github.com/user-attachments/assets/4eddb458-fc75-4edc-be4f-1f8a5d395d02" />
 
 # Z Labs Bitmap
 
-「Z Labs Bitmap」是一款以 [GNU Unifont](https://www.unifoundry.com/unifont/index.html) 为灵感而制作的小型像素字体。这套字体在 11 * 12 的像素空间（实际占用 12 * 12 像素）中，借鉴了 Unifont 字体的部分特征，同时进行创造性转化而成。
+「Z Labs Bitmap」是一款小型化像素字体，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
 
-字体目前已基本支持简体中文、繁体中文、日语。本字体遵循中国大陆规范字形，西文字体按等宽规格设计。
+字体目前已基本支持简体中文、繁体中文、日语。
 
 > [!WARNING]
 > 
@@ -14,23 +14,32 @@
 
 > [!IMPORTANT]
 > 
-> 这是一个开源项目，采用 [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) 许可证授权。您可以免费商用此字体。
+> 这是一个开源项目，字体部分采用 [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) 许可证授权。您可以免费商用此字体。
 > 
 
 ## 字体示例
 
-![幻灯片2](https://github.com/user-attachments/assets/d66931b9-2504-4960-b69c-b1b18a37a0a9)
+<img width="4000" height="2250" alt="幻灯片2" src="https://github.com/user-attachments/assets/ba645ce7-84cb-4560-bc6e-f266c33cc4b8" />
 
-![幻灯片3](https://github.com/user-attachments/assets/ce40b5d9-408c-4681-a7a2-98be7369a9f3)
+<img width="4000" height="2250" alt="幻灯片3" src="https://github.com/user-attachments/assets/801a3a47-0ccf-406f-b7e9-272b99895fcd" />
 
-![幻灯片4](https://github.com/user-attachments/assets/104421ff-dd29-459d-8ad9-e4388a9fa4b8)
+<img width="4000" height="2250" alt="幻灯片4" src="https://github.com/user-attachments/assets/e8bc7b24-5766-4eb7-8732-ac1a48f0cc80" />
 
-![幻灯片5](https://github.com/user-attachments/assets/f1a4ffbb-84de-40ac-b3d1-fceab5ebfb84)
+## 字形变体
 
-![幻灯片6](https://github.com/user-attachments/assets/9aac6348-38a8-47b7-b84c-dbd0a433a9be)
+本字体具有CN（陆标）、HC（港标）、JP（日标）三种变体，可满足不同环境下的使用需求。
+
+对于 HC 和 JP 变体，具有两种不同的版本：常规版本仅包含已经完成对应字形制作的字符，Fallback版本使用陆标字形填充其余汉字字符。
+
+（待完善）
+
+<img width="4000" height="2250" alt="幻灯片5" src="https://github.com/user-attachments/assets/b44bdc2f-07d8-4368-904d-bfcafa239889" />
 
 
 ## 字体覆盖范围
+
+（本节待完善）
+
 | 字符  | 目前支持情况  | 计划支持情况  |
 | :------------: | :------------: | :------------: |
 |  简体中文 | 目前支持 GB/T 2312 中规定的所有汉字（共6763个），以及《通用规范汉字表》*¹中的部分汉字（7749个）。目前制作完成的字符可满足大多数简体中文用字需求。| 计划支持《通用规范汉字表》*¹中规定的所有汉字。  |
@@ -57,44 +66,25 @@
 
 ## 从工程文件构建字体
 
-本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。下面是如何从工程文件 [（ZLabsBitmap.kbitx）](https://github.com/Astro-2539/ZLabs-Bitmap/blob/main/ZLabsBitmap.kbitx) 构建并发布字体的过程。
+本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。克隆项目后，运行`./tools/build.py`即可生成字体。
 
-过程中使用了 Bits'n'Picas （用于将工程文件转换为第一级 TTF）、FontForge（用于编辑数据并生成第二级 TTF）和[utils/fix_mono](https://github.com/Astro-2539/ZLabs-Bitmap/tree/main/utils/fix_mono)下的 `fix_mono.py`（用于修复等宽字体间距问题）。
-
-1. 在 Bits'n'Picas 所在文件夹下运行下列命令：
-```
-java -jar BitsNPicas.jar convertbitmap -f ttf -o "ZLabsBitmap_nightly.ttf" "ZLabsBitmap.kbitx"
-```
-或打开 `BitsNPicas.jar` 通过 GUI 界面将字体导出为 PDF。
-> **注意：**
->
->  通过 Bits'n'Picas 生成的 TTF 文件无法在大多数软件中使用。因此考虑通过下面的步骤对字体进行调整。注意调整的方式并不唯一。如果您愿意，您也可以通过命令行等其他方式对字体进行调整。
-
-2. 使用 FontForge 软件打开上一步中生成的 TTF 字体。
-    1. 在“PS字形名称”选项卡中，将“粗细”更改为 Regular。
-    2. 在“一般”选项卡中，勾选“有垂直尺寸”选项。
-    3. 在“OS/2”的“其他”选项卡中，将“OS/2版本”改为4，将“粗细类属”改为400，将“PFM字族”改为等宽体。
-    4. 在“OS/2”的“尺寸”选项卡中，将“Typo Linegap”和“HHead Linegap”改为100。
-       > 此步骤的目的是增加默认行间距，以避免纵向粘连问题。
-    5. 在“OS/2”的“特征”选项卡中，将“比例”属性改为“单一间距。
-       > 本字体制作时按照等宽规格制作。此步骤的目的是为字体声明“等宽”属性，以使得该字体可在对“等宽”属性有要求的软件中使用。
-       >
-       > 声明此属性后，如果直接导出，会出现字符间距异常的问题。因此，稍后将通过 `fix_mono` 解决此问题。
-    6. 在“OS/2”的“字符集”选项卡中，在微软编码页中勾选“默认”。
-    7. 按需求修改其他属性，并导出第二级 TTF。
-
-3. 将上一步导出的 TTF 文件放入`utils/fonts/TTF`中，并运行 `utils/fix_mono/build.bat` 修复字符间距问题。生成的新文件会覆盖原有文件。此时的字体可正常安装使用。
+（内容待完善）
     
 
 
 
 ## 字体授权
-Z Labs Bitmap 遵循 [SIL Open Font License 1.1](https://openfontlicense.org/open-font-license-official-text/) 许可协议。您可以将此字体用于包含商用与嵌入式使用在内的多种用途，而无须取得字体作者的授权。
+
+本项目授权分为「字体」及「构建代码」两部分。
+
+字体部分遵循 [SIL Open Font License 1.1](https://openfontlicense.org/open-font-license-official-text/) 许可协议。您可以将此字体用于包含商用与嵌入式使用在内的多种用途，而无须取得字体作者的授权。
 
 再分发此字体时，您应当注明 OFL 授权协议的原文或链接。
 
 根据 OFL 协议，如使用此字体制作衍生字体，那么衍生字体也必须同样遵循 OFL 协议。您不得单独售卖此字体。
 
 作者保留字体名称「Z工坊 / Z Labs」。
+
+构建代码部分使用 MIT 许可证授权。
 
 如使用过程中出现任何问题或有任何建议，您可以添加 issue 进行反馈。
