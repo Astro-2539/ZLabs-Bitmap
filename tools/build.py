@@ -11,13 +11,20 @@ from kbitx_marge_selected import advanced_merge_kbitx_files
 from kbitx_marge_fallback import merge_kbitx_files
 
 def fix_mono_mode(font: TTFont):
-    font['OS/2'].xAvgCharWidth = 600
     font['post'].isFixedPitch = 1
+    font['OS/2'].panose.bFamilyType = 2 
+    font['OS/2'].panose.bProportion = 9 # 修改字体的 Panose 属性，使其能够被识别为等宽字体
+    font['OS/2'].xAvgCharWidth = 600    # 修复 Panose 属性引起的字宽问题
+    font['OS/2'].achVendID = "ZLAB"
+    font['OS/2'].ulCodePageRange1 = 0b1100000000101100000000000001101
+    font['OS/2'].ulCodePageRange2 = 0b10000110101010000000000000000    # 为字体添加微软编码页属性，防止某些程序不识别
 
 
 def main():
     if path_define.build_dir.exists():
         shutil.rmtree(path_define.build_dir)
+    if path_define.data_dir.exists():
+        shutil.rmtree(path_define.data_dir)
     path_define.outputs_dir.mkdir(parents=True)
     path_define.releases_dir.mkdir(parents=True)
 
@@ -119,7 +126,7 @@ def main():
 
     for font_format in options.font_formats:
         with zipfile.ZipFile(path_define.releases_dir.joinpath(f'ZLabsBitmap-{font_format}.zip'), 'w') as file:
-            file.write(path_define.project_root_dir.joinpath('LICENSE'), 'LICENSE')
+            file.write(path_define.project_root_dir.joinpath('LICENSE-OFL'), 'LICENSE')
             for font_file_path in path_define.outputs_dir.iterdir():
                 if font_file_path.name.endswith(f'.{font_format}'):
                     file.write(font_file_path, font_file_path.name)
