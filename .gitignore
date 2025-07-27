@@ -144,3 +144,5 @@ cython_debug/
 www/fonts/
 
 tools/__pycache__/
+docs/compare_result.txt
+utils/

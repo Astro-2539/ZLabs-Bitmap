@@ -23,8 +23,6 @@ def fix_mono_mode(font: TTFont):
 def main():
     if path_define.build_dir.exists():
         shutil.rmtree(path_define.build_dir)
-    if path_define.data_dir.exists():
-        shutil.rmtree(path_define.data_dir)
     path_define.outputs_dir.mkdir(parents=True)
     path_define.releases_dir.mkdir(parents=True)
 
