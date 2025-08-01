@@ -57,7 +57,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 4:
-        print("用法: python merge_kbitx.py <file_a.kbitx> <file_b.kbitx> <output.kbitx>")
+        print("用法: python kbitx_marge_fallback.py <file_a.kbitx> <file_b.kbitx> <output.kbitx>")
     else:
         file_a = sys.argv[1]
         file_b = sys.argv[2]
