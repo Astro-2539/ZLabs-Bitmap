@@ -1,4 +1,4 @@
-<img width="2537" height="974" alt="幻灯片1" src="https://github.com/user-attachments/assets/4eddb458-fc75-4edc-be4f-1f8a5d395d02" />
+![标题](/img/title.png "Title")
 
 # Z Labs Bitmap
 
@@ -19,17 +19,17 @@
 
 ## 字体示例
 
-<img width="4000" height="2250" alt="幻灯片2" src="https://github.com/user-attachments/assets/ba645ce7-84cb-4560-bc6e-f266c33cc4b8" />
+![示例1](/img/Sample_1.PNG "Sample 1")
 
-<img width="4000" height="2250" alt="幻灯片3" src="https://github.com/user-attachments/assets/801a3a47-0ccf-406f-b7e9-272b99895fcd" />
+![示例2](/img/Sample_2.PNG "Sample 2")
 
-<img width="4000" height="2250" alt="幻灯片4" src="https://github.com/user-attachments/assets/e8bc7b24-5766-4eb7-8732-ac1a48f0cc80" />
+![示例3](/img/Sample_3.PNG "Sample 3")
 
 ## 字形变体
 
 本字体具有CN（陆标）、HC（港标）、JP（日标）三种变体，可满足不同环境下的使用需求。
 
-<img width="4000" height="2250" alt="幻灯片5" src="https://github.com/user-attachments/assets/b44bdc2f-07d8-4368-904d-bfcafa239889" />
+![变体字形](/img/MultiLanguage.PNG "Multi-Language Varient")
 
 
 ## 字体覆盖范围
@@ -50,11 +50,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345（6866 / 6866）
 
-&nbsp;&nbsp;&nbsp;&nbsp;🚧《通用规范汉字表》附件 1：「规范字与繁体字、异体字对照表」中的繁体字列（2404 / 2563）
+&nbsp;&nbsp;&nbsp;&nbsp;✅《通用规范汉字表》附件 1：「规范字与繁体字、异体字对照表」中的繁体字列（2563 / 2563）
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12393
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12924
 
 #### 中国香港变体字形（HC）
 
@@ -62,15 +62,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ Big5 常用汉字表（5401 / 5401）
 
-&nbsp;&nbsp;&nbsp;&nbsp;🚧 GB/T 12345（5730 / 6866）
+&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345（6866 / 6866）
 
-&nbsp;&nbsp;&nbsp;&nbsp;🚧《通用规范汉字表》附件 1：「规范字与繁体字、异体字对照表」中的繁体字列（2017 / 2563）
+&nbsp;&nbsp;&nbsp;&nbsp;✅《通用规范汉字表》附件 1：「规范字与繁体字、异体字对照表」中的繁体字列（2563 / 2563）
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208 一级汉字（2965 / 2965）
+&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;🚧 JIS X 0208（5155 / 6355）
-
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：6740
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：9976
 
 #### 日本变体字形（JP）
 
