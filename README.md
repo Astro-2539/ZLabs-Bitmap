@@ -25,6 +25,8 @@
 
 ![示例3](/img/Sample_3.PNG "Sample 3")
 
+![元素周期表](/img/periodic-table.png "元素周期表")
+
 ## 字形变体
 
 本字体具有CN（陆标）、HC（港标）、JP（日标）三种变体，可满足不同环境下的使用需求。
@@ -76,7 +78,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：6363
 
-&nbsp;&nbsp;&nbsp;&nbsp;⚠️ 若无特殊情况，不再制作新的汉字字符。
+&nbsp;&nbsp;&nbsp;&nbsp;⚠️ 鉴于日语对汉字需求较小，若无特殊情况，日标字形将不再制作新的汉字字符。
 
 #### 字体回退
 
@@ -103,9 +105,11 @@
 
 ## 从工程文件构建字体
 
-本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。克隆项目后，运行`./tools/build.py`即可生成字体。
+本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。运行`./tools/build.py`即可生成字体。
 
-（内容待完善）
+构建流程依赖`fonttools`库、`pixel_font_builder`库和`kbitfont`库。
+
+构建流程详见 `Tools` 文件夹下的自述文件。
     
 
 ## 字体授权

@@ -27,4 +27,4 @@
 1. 在 Unicode 中，陆标和日标的“直”字形未分开编码。
 
 2. 该字见于游戏《绽放☆青春全力向前冲！》的繁体中文标题中：
-![Cache_-80a0bb1bd5798b2](https://github.com/user-attachments/assets/18cbd6a5-b236-4b95-985b-641a128ab228)
+![闪耀青春追逐记繁中Logo](kakenuke_logo_tchinese.png "《绽放☆青春全力向前冲！》繁体中文Logo")
