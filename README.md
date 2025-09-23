@@ -56,7 +56,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12924
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12925
 
 #### 中国香港变体字形（HC）
 
@@ -70,13 +70,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：9976
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：9977
 
 #### 日本变体字形（JP）
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：6363
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：6364
 
 &nbsp;&nbsp;&nbsp;&nbsp;⚠️ 鉴于日语对汉字需求较小，若无特殊情况，日标字形将不再制作新的汉字字符。
 
