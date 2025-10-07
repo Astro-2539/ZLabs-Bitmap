@@ -8,13 +8,13 @@
 <prop id="lineGap" value="0"/>
 <prop id="xHeight" value="6"/>
 <prop id="capHeight" value="8"/>
-<name id="0" value="Copyright (c) 2023-2025, Astro_2539 (https://github.com/Astro-2539)"/>
-<name id="1" value="Z Labs Bitmap HC"/>
+<name id="0" value="Copyright (c) 2023-2025, Astro_2539 (https://github.com/Astro-2539)."/>
+<name id="1" value="Z Labs Bitmap 12px HC"/>
 <name id="2" value="Regular"/>
-<name id="3" value="ZLabsBitmap HC: 2025"/>
-<name id="4" value="Z Labs Bitmap HC"/>
+<name id="3" value="ZLabsBitmap 12px HC: 2025"/>
+<name id="4" value="Z Labs Bitmap 12px HC"/>
 <name id="5" value="Version 1.0_HC"/>
-<name id="6" value="ZLabsBitmapHC"/>
+<name id="6" value="ZLabsBitmap_12px_HC"/>
 <name id="8" value="Made with Bits&#39;n&#39;Picas by Kreative Software"/>
 <name id="9" value="Astro_2539"/>
 <name id="11" value="http://www.kreativekorp.com/software/bitsnpicas/"/>

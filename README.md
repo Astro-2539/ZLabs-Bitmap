@@ -1,10 +1,16 @@
 ![标题](/img/title.png "Title")
 
-# Z Labs Bitmap
+# Z Labs Bitmap 12px
 
-「Z Labs Bitmap」是一款小型化像素字体，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
+「Z Labs Bitmap 12px」是一款规格为 12px 的像素字体，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
 
 字体目前已基本支持简体中文、繁体中文、日语。
+
+> [!WARNING]
+> 
+> 我们对字体文件进行了更名。安装新版本后，由于字体名称不同，与旧版本可以共存。
+>
+> 更新字体后，请您手动在软件中选择更名后的新字体。
 
 > [!WARNING]
 > 
@@ -56,7 +62,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12925
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12926
 
 #### 中国香港变体字形（HC）
 
@@ -86,7 +92,7 @@
 
 若软件支持多字体排版，可以通过设置 `font_family` 或类似属性，使支持汉字数更多的 CN 变体作为 HC/JP 的后备字体，从而让 CN 变体显示 HC/JP 暂未支持的汉字。
 
-若软件不支持多字体，可以考虑使用对应变体的 `Fallback` 版本。在这个版本中，对于 HC/JP 变体已支持的汉字，将维持原样；对于 CN 变体已经制作而 HC/JP 未制作的汉字，将使用 CN 字形填充对应的码位（无论这个字是否在 HC/JP 制作计划中），使得支持汉字的数目与 CN 版一致（不保证字形正确性）。
+若软件不支持多字体，可以考虑使用对应变体的 `Fallback` （FB）版本。在这个版本中，对于 HC/JP 变体已支持的汉字，将维持原样；对于 CN 变体已经制作而 HC/JP 未制作的汉字，将使用 CN 字形填充对应的码位（无论这个字是否在 HC/JP 制作计划中），使得支持汉字的数目与 CN 版一致（不保证字形正确性）。
 
 ### 其他字符
 
@@ -105,9 +111,9 @@
 
 ## 从工程文件构建字体
 
-本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。运行`./tools/build.py`即可生成字体。
+本字体使用 [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas) 制作。运行 `./tools/build.py` 即可生成字体。
 
-构建流程依赖`fonttools`库、`pixel_font_builder`库和`kbitfont`库。
+构建流程依赖 `fonttools` 库、`pixel_font_builder` 库和 `kbitfont` 库。
 
 构建流程详见 `Tools` 文件夹下的自述文件。
     

@@ -67,7 +67,7 @@ def main():
         builder.meta_info.sample_text = kbit_font.names.sample_text
 
         if language_flavor == 'HC_fallback' or language_flavor == 'JP_fallback':
-            builder.meta_info.family_name = kbit_font.names.family + ' Fallback'
+            builder.meta_info.family_name = kbit_font.names.family + ' FB'
         else:
             builder.meta_info.family_name = kbit_font.names.family
 
@@ -97,33 +97,33 @@ def main():
         otf_font = builder.to_otf_builder().font
         fix_mono_mode(otf_font)
 
-        otf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap{language_flavor.upper()}.otf'))
+        otf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap_12px_{language_flavor.upper()}.otf'))
         print(f'Create {language_flavor} otf')
 
         otf_font.flavor = 'woff'
-        otf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap{language_flavor.upper()}.otf.woff'))
+        otf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap_12px_{language_flavor.upper()}.otf.woff'))
         print(f'Create {language_flavor} otf.woff')
 
         otf_font.flavor = 'woff2'
-        otf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap{language_flavor.upper()}.otf.woff2'))
+        otf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap_12px_{language_flavor.upper()}.otf.woff2'))
         print(f'Create {language_flavor} otf.woff2')
 
         ttf_font = builder.to_ttf_builder().font
         fix_mono_mode(ttf_font)
 
-        ttf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap{language_flavor.upper()}.ttf'))
+        ttf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap_12px_{language_flavor.upper()}.ttf'))
         print(f'Create {language_flavor} ttf')
 
         ttf_font.flavor = 'woff'
-        ttf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap{language_flavor.upper()}.ttf.woff'))
+        ttf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap_12px_{language_flavor.upper()}.ttf.woff'))
         print(f'Create {language_flavor} ttf.woff')
 
         ttf_font.flavor = 'woff2'
-        ttf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap{language_flavor.upper()}.ttf.woff2'))
+        ttf_font.save(path_define.outputs_dir.joinpath(f'ZLabsBitmap_12px_{language_flavor.upper()}.ttf.woff2'))
         print(f'Create {language_flavor} ttf.woff2')
 
     for font_format in options.font_formats:
-        with zipfile.ZipFile(path_define.releases_dir.joinpath(f'ZLabsBitmap-{font_format}.zip'), 'w') as file:
+        with zipfile.ZipFile(path_define.releases_dir.joinpath(f'ZLabsBitmap_12px_{font_format}.zip'), 'w') as file:
             file.write(path_define.project_root_dir.joinpath('LICENSE-OFL'), 'LICENSE')
             for font_file_path in path_define.outputs_dir.iterdir():
                 if font_file_path.name.endswith(f'.{font_format}'):
