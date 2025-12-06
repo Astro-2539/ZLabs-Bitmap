@@ -1,14 +1,14 @@
 [简体中文](/README.md) | [English](/README_EN.md) | **日本語**
 
-![Title_JP](/img/JP/Title_JP.png "Title_JP")
-
-# Z Labs Bitmap 12px
-
 > [!IMPORTANT]
 >
 > **本記事は人工知能による翻訳です。簡体字中国語原文を基準としてください。**
 >
- 
+
+![Title_JP](/img/JP/Title_JP.png "Title_JP")
+
+# Z Labs Bitmap 12px
+
 「Z Labs Bitmap 12px」は、サイズが 12px のピクセルフォントです。日本語、中国本土、香港の 3 種類の文字形状をサポートしており、西文文字は等幅仕様で設計されています。
  
 > [!WARNING]

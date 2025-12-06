@@ -1,13 +1,13 @@
 [简体中文](/README.md) | **English** | [日本語](/README_JP.md)
 
-![Title](/img/title.png "Title")
-
-# Z Labs Bitmap 12px
-
 > [!IMPORTANT]
 >
 > **This article is translated by artificial intelligence. Please refer to the original text in Simplified Chinese.**
 >
+
+![Title](/img/title.png "Title")
+
+# Z Labs Bitmap 12px
 
 「Z Labs Bitmap 12px」is a 12px pixel font that supports three glyph styles: Mainland China, Hong Kong (China), and Japan. Western characters are designed in a monospaced specification.
 
