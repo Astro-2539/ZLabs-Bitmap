@@ -1,5 +1,7 @@
 ![标题](/img/title.png "Title")
 
+<p style="text-align:center">**简体中文** | [English](/README_EN.md) | [日本語](/README_JP.md)</p>
+
 # Z Labs Bitmap 12px
 
 「Z Labs Bitmap 12px」是一款规格为 12px 的像素字体，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
