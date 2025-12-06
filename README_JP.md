@@ -1,6 +1,6 @@
 ![Title_JP](/img/JP/Title_JP.png "Title_JP")
 
-<p style="text-align:center">[简体中文](/README.md) | [English](/README_EN.md) | **日本語**</p>
+[简体中文](/README.md) | [English](/README_EN.md) | **日本語**
 
 # Z Labs Bitmap 12px
 
