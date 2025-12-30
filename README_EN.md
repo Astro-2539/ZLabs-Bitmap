@@ -9,7 +9,7 @@
 
 # Z Labs Bitmap 12px
 
-「Z Labs Bitmap 12px」is a 12px pixel font that supports three glyph styles: Mainland China, Hong Kong (China), and Japan. Western characters are designed in a monospaced specification.
+Z Labs Bitmap 12px is a 12px pixel font that supports three glyph styles: Mainland China, Hong Kong (China), and Japan. Western characters are designed in a monospaced specification.
 
 
 
@@ -132,7 +132,7 @@ Licensed under the MIT License.
 
 [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) provides pixel glyph editing software.
 
-[@狼人小林（TakWolf）](https://github.com/TakWolf) provides technical support.
+[@TakWolf（狼人小林）](https://github.com/TakWolf) provides technical support.
 
 ## Related Resources
 

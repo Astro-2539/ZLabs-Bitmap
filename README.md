@@ -4,6 +4,12 @@
 
 # Z Labs Bitmap 12px
 
+> [!WARNING]
+> 
+> 我们正在计划修改该字体家族的英文名称（详见[#2](https://github.com/Astro-2539/ZLabs-Bitmap/issues/2)），预计于2026年1月中旬实施。
+> 
+> 如有疑问或建议，请在 Issue 中回复。
+
 「Z Labs Bitmap 12px」是一款规格为 12px 的像素字体，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
 
 字体目前已基本支持简体中文、繁体中文、日语。
