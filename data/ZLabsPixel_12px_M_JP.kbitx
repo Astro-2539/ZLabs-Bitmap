@@ -7,13 +7,13 @@
 <prop id="lineGap" value="0" />
 <prop id="xHeight" value="6" />
 <prop id="capHeight" value="8" />
-<name id="0" value="Copyright (c) 2023-2025, Astro_2539 (https://github.com/Astro-2539)." />
-<name id="1" value="Z Labs Bitmap 12px JP" />
+<prop id="newGlyphWidth" value="0" />
+<name id="0" value="Copyright (c) 2023-2026, Astro_2539 (https://github.com/Astro-2539)." />
+<name id="1" value="Z Labs Pixel 12px M JP" />
 <name id="2" value="Regular" />
-<name id="3" value="ZLabsBitmap 12px JP: 2025" />
-<name id="4" value="Z Labs Bitmap 12px JP" />
-<name id="5" value="Version 1.01_JP" />
-<name id="6" value="ZLabsBitmap_12px_JP" />
+<name id="3" value="ZLabsPixel 12px M JP: 2025" />
+<name id="4" value="Z Labs Pixel 12px M JP" />
+<name id="5" value="Version 1.0_JP" />
 <name id="8" value="Made with Bits'n'Picas by Kreative Software" />
 <name id="9" value="Astro_2539" />
 <name id="11" value="http://www.kreativekorp.com/software/bitsnpicas/" />
@@ -7557,7 +7557,7 @@
 <g u="33502" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBBEEKSAJBB0EDRsIA/wNBBMP/AP8DRsIA/wNBBUECw/8A/whBAkk" />
 <g u="33503" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBBUEKSAJBB8T/AP8ARsIA/wNBBMP/AP8DQQTD/wD/A0bCAP8KQQhCAg" />
 <g u="33507" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBD0kCQQpIA0EGQQNBBkEDSANBCko" />
-<g u="33509" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBB0EKQQZLA0EJRwPD/wD/BEECQQJBBEEFRgVBBEEC" />
+<g u="33509" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBB0EKQQZLA0EJSALD/wD/BcP/AP8CQQVBBEcEQQXC/wA" />
 <g u="33510" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBCEEFSwVBCkEGSQJBB0ECQQdBAkkCQQfC/wA" />
 <g u="33511" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBCEEFTAlBC0sFQQpBCMP/AP8JQQY" />
 <g u="33515" x="0" y="10" w="12" d="DAsDQQNBA0sDQQNBCEEKRgVBCkEGSQJBB0ECQQdBAkkCQQfC/wA" />
@@ -8278,7 +8278,7 @@
 <g u="38729" x="0" y="10" w="12" d="DAsBQwVCAkECRAJFxQD/AP8AQsMA/wBHxgD/AP8A/wLD/wD/BkECQQJDwwD/AELCAP8GQQRFAUQCQQNCAsP/AP8CQQNCAkQBQgJC" />
 <g u="38738" x="0" y="10" w="12" d="DAsFQQZJBkEHRwdBBUsCQQVBBEcEQQVBBEcEQQVBBEEDQgM" />
 <g u="38745" x="0" y="10" w="12" d="DAsCQQNBBEUBQwRBAkECQQNDA0EFQQJFAUUCw/8A/wLE/wD/AEYBQwPD/wD/AsT/AP8ARQJDA0EEx/8A/wD/AP8Ew/8A/wJBBA" />
-<g u="38754" x="1" y="9" w="12" d="CwpKBUEIQQVLAkECQQJCAkQCQgJBAkECQgJEAkICQQJBAkwIQQ" />
+<g u="38754" x="0" y="10" w="12" d="DAtLBUEJQQZMAkEDQQJCAkUCQgJBA0ECQgJFAkICQQNBAkICQQNBAk0JQQ" />
 <g u="38756" x="0" y="10" w="12" d="DAsGQQRFAUUDw/8A/wRGAUMBQskA/wD/AP8A/wBCAUPFAP8A/wBCyQD/AP8A/wD/AEIBQ8UA/wD/AELFAP8A/wBCygD/AP8A/wD/AP8DRsIA/wNCBkQ" />
 <g u="38758" x="0" y="9" w="12" d="CwtFAUQEQQJBAsL/AEUBRMgA/wD/AP8A/wLE/wD/AEMBRMgA/wD/AP8A/wLE/wD/AEMBRMoA/wD/AP8A/wD/Asr/AP8A/wD/AP8ARsUA/wD/AEIEQQNC" />
 <g u="38761" x="0" y="10" w="12" d="DAsDQQNBBEkEQQNBBkUIQQdHBEECQQJBBEcHQQVLBUEKQQU" />
@@ -8530,6 +8530,7 @@
 <g u="40654" x="0" y="10" w="12" d="DAsDQgJBA0MERAJBA8T/AP8ARgPE/wD/AEPEAP8A/wJCxgD/AP8A/wJCAkLDAP8AQgJCA0EDQgJBAkECQQXF/wD/AP8FQQJBAkECQgJCA0I" />
 <g u="40655" x="0" y="10" w="12" d="DAsDQgNBAkMFQQRBBUECRQNDAUMEQQLF/wD/AP8DQQRBA0XEAP8A/wJBA0LGAP8A/wD/A8L/AEMCQQNCxQD/AP8ARQFCA0EDQQ" />
 <g u="40656" x="0" y="10" w="12" d="DAsDQgNBAkMDRQJBBMT/AP8ARccA/wD/AP8AQwJCAUPFAP8A/wBFAkEFQQPD/wD/AkbLAP8A/wD/AP8A/wBDAkIBQ8UA/wD/AEPDAP8AQgNBAsL/AA" />
+<g u="40657" x="0" y="10" w="12" d="DAsBSQJBA0EDQQLJ/wD/AP8A/wD/AkECQwJBAkkGQQZJBkEFSwzD/wD/AkECw/8A/wNBAkECQQ" />
 <g u="40658" x="0" y="10" w="12" d="DAsBSQJBA0EDQQJJAkEDQQNBAkkGQQZJBkEFSwzD/wD/AkECw/8A/wNBAkECQQ" />
 <g u="40664" x="0" y="10" w="12" d="DAtGAkECQQLD/wD/AkIBQgFDAsL/AEICw/8A/wJBAkYBRANBBEECRgJBBUEDw/8A/wRDxQD/AP8AQwTD/wD/BUECy/8A/wD/AP8A/wD/A0E" />
 <g u="40665" x="0" y="10" w="12" d="DAtFA0LGAP8A/wD/A8L/AEYDQQLG/wD/AP8ASgNBBEEFQQJFAsP/AP8DQQTE/wD/AEXCAP8DQQzD/wD/AkECw/8A/wNBAkECQQ" />
@@ -8593,7 +8594,33 @@
 <g u="65037" x="0" y="10" w="12" d="DAtCAUIBQgFDCUECw/8A/wJCAsX/AP8A/wJBAkICQQJCAkENQgLD/wD/AkECQQLE/wD/AEICQQJDwgD/A0EEQQJBCUMBQgFCAUI" />
 <g u="65038" x="0" y="10" w="12" d="DAtCAUIBQgFDCUECw/8A/wJCAsX/AP8A/wJBAkICQQJCAkENQgJDAkECQQJBA0ICQQTD/wD/A0ECQgNBCUMBQgFCAUI" />
 <g u="65039" x="0" y="10" w="12" d="DAtCAUIBQgFDCUECw/8A/wJCAsX/AP8A/wJBAkICQQJCAkENQgNBA0ECQQJCAkICQQLF/wD/AP8DQQNBA0EJQwFCAUIBQg" />
+<g u="65040" x="8" y="9" w="12" d="BAJEAUIB" />
+<g u="65041" x="8" y="9" w="12" d="BANBA0EDQQJB" />
+<g u="65042" x="7" y="9" w="12" d="BAQBQsIA/wJCAsL/AEIB" />
+<g u="65043" x="8" y="9" w="12" d="CAJECEQ" />
+<g u="65044" x="8" y="9" w="12" d="CgJECEQBQgE" />
+<g u="65045" x="8" y="9" w="12" d="CgJMBEQ" />
+<g u="65046" x="3" y="9" w="12" d="CwgCRANCAkIBQgREBEIFQgVCBUIGQg5CBkID" />
+<g u="65047" x="0" y="4" w="12" d="BQtMCUIDQwNCAUIDQgFDB0I" />
+<g u="65048" x="0" y="9" w="12" d="BQtCB0MBQgNCAUIDQwNCCUw" />
+<g u="65049" x="8" y="9" w="12" d="CgJEBEQERA" />
 <g u="65072" x="5" y="6" w="12" d="BwJEBkQ" />
+<g u="65077" x="0" y="3" w="12" d="BAsEQwZCA0IDQQfD/wD/CUE" />
+<g u="65078" x="0" y="9" w="12" d="BAtBCcP/AP8HQQNCA0IGQwQ" />
+<g u="65079" x="0" y="4" w="12" d="BQsFQQnD/wD/BUMDQ8IA/wlCCUE" />
+<g u="65080" x="0" y="9" w="12" d="BQtBCUIJwv8AQwNDBcP/AP8JQQU" />
+<g u="65081" x="0" y="3" w="12" d="BAsDRQVBBUEDQQfD/wD/CUE" />
+<g u="65082" x="0" y="9" w="12" d="BAtBCcP/AP8HQQNBBUEFRQM" />
+<g u="65083" x="0" y="4" w="12" d="BQtaA0YHQwlB" />
+<g u="65084" x="0" y="9" w="12" d="BQtBCUMHRgNa" />
+<g u="65085" x="0" y="5" w="12" d="BgsEQwZCA0ICQgdCBEMGQgNCAkIHQg" />
+<g u="65086" x="0" y="9" w="12" d="BgtCB0ICQgNCBkMEQgdCAkIDQgZDBA" />
+<g u="65087" x="0" y="3" w="12" d="AwsEQwZCA0ICQgdC" />
+<g u="65088" x="0" y="8" w="12" d="AwtCB0ICQgNCBkME" />
+<g u="65089" x="2" y="2" w="12" d="AwlJCEEIQQ" />
+<g u="65090" x="0" y="9" w="12" d="AwlBCEEISQ" />
+<g u="65091" x="2" y="4" w="12" d="BQlKB0jCAP8Gw/8A/wZD" />
+<g u="65092" x="0" y="9" w="12" d="BQlDBsP/AP8Gwv8ASAdK" />
 <g u="65281" x="2" y="9" w="12" d="CwJOBEQ" />
 <g u="65282" x="4" y="9" w="12" d="AwPC/wBCAULCAP8" />
 <g u="65283" x="2" y="9" w="12" d="CggDQQJBBEECQQRBAkECRwJBAkEEQQJBAkcCQQJBBEECQQRBAkED" />

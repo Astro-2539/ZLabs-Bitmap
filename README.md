@@ -1,24 +1,26 @@
 **简体中文** | [English](/README_EN.md) | [日本語](/README_JP.md)
 
-![标题](/img/title.png "Title")
+# Z工坊像素黑体 12px / Z Labs Pixel 12px
 
-# Z Labs Bitmap 12px
-
-> [!WARNING]
-> 
-> 我们正在计划修改该字体家族的英文名称（详见[#2](https://github.com/Astro-2539/ZLabs-Bitmap/issues/2)），预计于2026年1月中旬实施。
-> 
-> 如有疑问或建议，请在 Issue 中回复。
-
-「Z Labs Bitmap 12px」是一款规格为 12px 的像素字体，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
-
-字体目前已基本支持简体中文、繁体中文、日语。
+![标题](/img/title_short.png "Title")
 
 > [!WARNING]
 > 
-> 此字体目前处于字形调整阶段。尽管此字体已经实现了对简、繁体中文及日语必要字符的全面支持，但仍需进行调整与扩充。目前的发布候选版本不代表最终版品质。
+> 该字体家族的名称已经由 **「Z Labs Bitmap 12px」** 变更为 **「Z工坊像素黑体 12px / Z Labs Pixel 12px」**（详见[#2](https://github.com/Astro-2539/ZLabs-Bitmap/issues/2)）。
+>
+> 安装新版字体后，**您需要在软件中手动切换至具有新名称的字体**，以便应用字体更新。给您带来不便，敬请谅解。
 > 
-> 如果在使用过程中发现了字形错误或不和谐等问题，请及时在 Issues 中反馈。
+> 如有疑问或建议，请在该 Issue 中回复。
+
+「Z工坊像素黑体 12px」(Z Labs Pixel 12px) 是一款规格为 11*12px 的像素字体，采用黑体字形风格，具有中国大陆、中国香港、日本三种变体字形，西文字体按等宽规格设计。
+
+字体目前已基本支持简体中文、繁体中文、日语的日常使用。
+
+> [!WARNING]
+> 
+> 作者并非职业设计师，字体可能存在字形不和谐、风格不一致等问题，还请谅解。
+> 
+> 如果在使用过程中有任何问题，请及时在 Issues 中反馈。
 
 > [!IMPORTANT]
 > 
@@ -27,20 +29,20 @@
 
 ## 字体示例
 
-![示例1](/img/Sample_1.PNG "Sample 1")
-
-![示例2](/img/Sample_2.PNG "Sample 2")
-
-![示例3](/img/Sample_3.PNG "Sample 3")
+![示例1](/img/Sample.png "Sample 1")
 
 ![元素周期表](/img/periodic-table.png "元素周期表")
 
 ## 字形变体
 
-本字体具有CN（陆标）、HC（港标）、JP（日标）三种变体，可满足不同环境下的使用需求。
+本字体具有CN（遵循中国大陆标准）、HC（遵循中国香港标准）、JP（遵循 JIS X 0213:2004 标准）三种变体，可满足不同环境下的使用需求。
 
-![变体字形](/img/MultiLanguage.PNG "Multi-Language Varient")
-
+> [!IMPORTANT]
+> 
+> 由于不同地区的用字习惯不同，选择一个恰当的字形变体十分重要。我们建议您在简体中文环境下选择 CN 变体，在繁体中文环境下选择 HC 变体，在日语环境下选择 JP 变体。
+>
+> 对于繁体中文用户，若您无法接受中国香港字形标准，建议您使用其他字体。
+> 
 
 ## 字体覆盖范围
 
@@ -60,11 +62,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345（6866 / 6866）
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅《通用规范汉字表》附件 1：「规范字与繁体字、异体字对照表」中的繁体字列（2563 / 2563）
+&nbsp;&nbsp;&nbsp;&nbsp;✅《〈通用规范汉字表〉附件 1：规范字与繁体字、异体字对照表》中的繁体字列（2563 / 2563）
+
+&nbsp;&nbsp;&nbsp;&nbsp;✅ jf7000 当务字集基本包（6373 / 6373）
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12926
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：12994
 
 #### 中国香港变体字形（HC）
 
@@ -74,17 +78,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345（6866 / 6866）
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅《通用规范汉字表》附件 1：「规范字与繁体字、异体字对照表」中的繁体字列（2563 / 2563）
+&nbsp;&nbsp;&nbsp;&nbsp;✅《〈通用规范汉字表〉附件 1：规范字与繁体字、异体字对照表》中的繁体字列（2563 / 2563）
+
+&nbsp;&nbsp;&nbsp;&nbsp;✅ jf7000 当务字集基本包（6373 / 6373）
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：9977
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：10082
 
 #### 日本变体字形（JP）
 
 &nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：6364
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ 共计支持汉字：6365
 
 &nbsp;&nbsp;&nbsp;&nbsp;⚠️ 鉴于日语对汉字需求较小，若无特殊情况，日标字形将不再制作新的汉字字符。
 
@@ -122,9 +128,9 @@
 
 ## 字体授权
 
-本项目授权分为「字体」及「构建代码」两部分。
+本项目授权分为「字型」及「构建代码」两部分。
 
-### 字体
+### 字型
 
 使用 [SIL Open Font License 1.1](https://openfontlicense.org/open-font-license-official-text/) 许可证授权。
 
@@ -134,7 +140,7 @@
 
 根据 OFL 协议，如使用此字体制作衍生字体，那么衍生字体也必须同样遵循 OFL 协议。您不得单独售卖此字体。
 
-作者保留字体名称「Z工坊 / Z Labs」。
+作者保留字体名称「Z工坊」「Z Labs」。
 
 ### 构建代码
 
@@ -147,6 +153,14 @@
 
 [@狼人小林](https://github.com/TakWolf) 提供技术支持。
 
+## 赞助作者
+
+[点击进入赞赏页面](https://github.com/Astro-2539/Astro-2539/blob/main/donate.md)
+
 ## 相关资料
 
-[字统网](https://zi.tools/) - 漢字源、形、音、義、碼网羅站點
+[字统网](https://zi.tools/) - 漢字與非漢字源、形、音、義、碼网羅站點
+
+## 项目 Stars 统计图
+
+[![Stargazers over time](https://starchart.cc/Astro-2539/ZLabs-Bitmap.svg?variant=adaptive)](https://starchart.cc/Astro-2539/ZLabs-Bitmap)

@@ -1,139 +1,151 @@
 [简体中文](/README.md) | **English** | [日本語](/README_JP.md)
 
 > [!IMPORTANT]
->
-> **This article is translated by artificial intelligence. Please refer to the original text in Simplified Chinese.**
->
+> 
+> This article is translated by artificial intelligence.
+> 
 
-![Title](/img/title.png "Title")
+# Z Labs Pixel 12px
 
-# Z Labs Bitmap 12px
-
-Z Labs Bitmap 12px is a 12px pixel font that supports three glyph styles: Mainland China, Hong Kong (China), and Japan. Western characters are designed in a monospaced specification.
-
-
+![Title](/img/title_short_EN.png "Title")
 
 > [!WARNING]
 > 
-> This font is currently in the glyph adjustment phase. Although it has achieved comprehensive support for necessary characters in Simplified Chinese, Traditional Chinese, and Japanese, some characters still need to be adjusted. The current release candidate does not represent the quality of the final version.
+> The name of this font family has been changed from "Z Labs Bitmap 12px" to "Z Labs Pixel 12px" (see [#2](https://github.com/Astro-2539/ZLabs-Bitmap/issues/2) for details).
+>
+> After installing the new version of the font, **you need to manually switch to the font with the new name in the software** to apply the font update. We apologize for any inconvenience caused.
 > 
-> If you find glyph errors or other issues during use, please feedback them in Issues in a timely manner.
+> If you have any questions or suggestions, please reply in this Issue.
+
+Z Labs Pixel 12px is a pixel font with specifications of 11*12px, adopting a sans-serif font style. It has three variant glyphs for Mainland China, Hong Kong (China), and Japan, and the Western characters are designed in a monospaced specification.
+
+The font currently basically supports daily use of Simplified Chinese, Traditional Chinese, and Japanese.
+
+> [!WARNING]
+> 
+> The author is not a professional designer, so the font may have issues such as inconsistent glyph harmony and style. Please understand.
+> 
+> If you encounter any problems during use, please provide feedback in the Issues in a timely manner.
 
 > [!IMPORTANT]
 > 
-> This is an open-source project, and the font part is licensed under the [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) license. When using this font, there is no need to purchase additional licenses from the author (including commercial use, embedded use in apps/hardware, etc.).
+> This is an open-source project, and the font part is licensed under the [OFL-1.1](https://openfontlicense.org/open-font-license-official-text/) license. You can use this font commercially for free.
 > 
 
 ## Font Examples
 
-![Sample 1](/img/Sample_1.PNG "Sample 1")
+![Sample 1](/img/Sample.png "Sample 1")
 
-![Sample 2](/img/Sample_2.PNG "Sample 2")
-
-![Sample 3](/img/Sample_3.PNG "Sample 3")
-
-![Periodic Table](/img/periodic-table.png "Periodic Table")
+![Periodic Table of Elements](/img/periodic-table.png "Periodic Table of Elements")
 
 ## Glyph Variants
 
+This font has three variants: CN (complying with Mainland China standards), HC (complying with Hong Kong (China) standards), and JP (complying with JIS X 0213:2004 standards), which can meet the usage requirements in different environments.
+
 > [!IMPORTANT]
 > 
-> It is crucial to select the appropriate font when localizing a project. We recommend using the CN version for Simplified Chinese, the HC version for Traditional Chinese, and the JP version for Japanese.
+> Due to different character usage habits in different regions, it is very important to choose an appropriate glyph variant. We recommend that you select the CN variant in the Simplified Chinese environment, the HC variant in the Traditional Chinese environment, and the JP variant in the Japanese environment.
+>
+> For Traditional Chinese users, if you cannot accept the Hong Kong (China) glyph standards, we recommend using other fonts.
 > 
-> Since the Western text parts of the three are the same, any variant version can be used for the localization of languages such as English and French (but some symbols are drawn according to Chinese usage habits).
-> 
-
-This font has three variants: CN (Mainland China glyph standard), HC (Hong Kong, China glyph standard) and JP (Japanese glyph standard), which can meet the needs of different language environments.
-
-![Multi-Language Varient](/img/MultiLanguage.PNG "Multi-Language Varient")
-
 
 ## Font Coverage
 
 ### Chinese Characters
 
-The Chinese character support varies among different versions of the font. The production plans and specific support situations for each version variant are listed below.
+The Chinese character support of different variants of this font varies. The production plan and specific support status of each variant are listed below.
 
+#### Mainland China Variant Glyphs (CN)
 
-#### Mainland China Variant (CN)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 2312 （6763 / 6763）
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 2312 (6763 / 6763)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ *Table of General Standard Chinese Characters* (8105 / 8105)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ "General Standard Chinese Characters Table"（通用规范汉字表） (8105 / 8105)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Big5 Common Chinese Character List (5401 / 5401)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ Big5 Common Chinese Characters Table (5401 / 5401)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ *Table of Standard Forms of Common National Characters* (4808 / 4808)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ "Common National Standard Font Table"（常用国字标准字体表） (4808 / 4808)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345（6866 / 6866）
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345 (6866 / 6866)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ The Traditional Chinese characters column in "Appendix 1: Comparison Table of Standard Characters, Traditional Characters, and Variant Characters" of *The Table of General Standard Chinese Characters* (2563 / 2563)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208 (6355 / 6355)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ jf7000 Priority Character Set Basic Package (6373 / 6373)
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ Total Chinese characters supported: 12926
+&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-#### Hong Kong, China Variant (HC)
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ Total Chinese characters supported: 12994
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ "Common National Standard Font Table" (4808 / 4808)
+#### Hong Kong (China) Variant Glyphs (HC)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ Big5 Common Chinese Characters Table (5401 / 5401)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ *Table of Standard Forms of Common National Characters* (4808 / 4808)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345 (6866 / 6866)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ Big5 Common Chinese Character List (5401 / 5401)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208 (6355 / 6355)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ GB/T 12345（6866 / 6866）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ Total Chinese characters supported: 9977
+&nbsp;&nbsp;&nbsp;&nbsp;✅ The Traditional Chinese characters column in "Appendix 1: Comparison Table of Standard Characters, Traditional Characters, and Variant Characters" of *The Table of General Standard Chinese Characters* (2563 / 2563)
 
-#### Japanese Variant (JP)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ jf7000 Priority Character Set Basic Package (6373 / 6373)
 
-&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208 (Level 1 and Level 2 characters) (6355 / 6355)
+&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
 
-&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ Total Chinese characters supported: 6364
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ Total Chinese characters supported: 10082
+
+#### Japanese Variant Glyphs (JP)
+
+&nbsp;&nbsp;&nbsp;&nbsp;✅ JIS X 0208（6355 / 6355）
+
+&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ Total Chinese characters supported: 6365
+
+&nbsp;&nbsp;&nbsp;&nbsp;⚠️ Considering the relatively small demand for Chinese characters in Japanese, no new Chinese character glyphs will be created for the Japanese standard variant unless there are special circumstances.
 
 #### Font Fallback
 
-Due to the limited energy of the author, currently only some Chinese characters have been produced for the HC and JP versions, so you may encounter missing Chinese characters during use.
+Due to the limited energy of the author, only some Chinese characters have been created for the HC and JP versions, so missing Chinese characters may be encountered during use.
 
-If the software supports the font fallback mechanism, you can set the `font_family` or similar properties to make the CN variant, which supports more Chinese characters, serve as the fallback font for HC/JP, so that the CN variant can display the Chinese characters that HC/JP do not yet support.
+If the software supports multi-font typesetting, you can set the `font_family` or similar attributes to make the CN variant, which supports more Chinese characters, serve as the fallback font for HC/JP, so that the CN variant displays Chinese characters not yet supported by HC/JP.
 
-If the software does not support this mechanism, you can consider using the `Fallback` (FB) version of the corresponding variant. In this version, the Chinese characters already supported by the HC/JP variants will remain unchanged; for the Chinese characters that have been produced in the CN variant but not in HC/JP, the CN glyphs will be used to fill the corresponding code positions (regardless of whether the character is in the HC/JP production plan), so that the number of supported Chinese characters is the same as that of the CN version (glyph consistency is not guaranteed).
-
+If the software does not support multiple fonts, you can consider using the `Fallback` (FB) version of the corresponding variant. In this version, the glyphs of Chinese characters already supported by the HC/JP variants will remain unchanged; for Chinese characters that have been created in the CN variant but not in the HC/JP variants, the CN glyphs will be used to fill the corresponding code positions (regardless of whether the character is in the HC/JP production plan), making the number of supported Chinese characters consistent with the CN version (glyph correctness is not guaranteed).
 
 ## Building the Font from Project Files
 
 This font is created using [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas). Run `./tools/build.py` to generate the font.
 
-The building process depends on the `fonttools` library, `pixel_font_builder` library, and `kbitfont` library.
+The build process depends on the `fonttools` library, `pixel_font_builder` library, and `kbitfont` library.
 
-For details of the building process, please refer to the readme file in the `Tools` folder.
+For details of the build process, see the README file in the `Tools` folder.
     
 
 ## Font License
 
-The license of this project is divided into two parts: "Fonts" and "Building Code".
+The license of this project is divided into two parts: "glyphs" and "build code".
 
-### Fonts
+### Glyphs
 
 Licensed under the [SIL Open Font License 1.1](https://openfontlicense.org/open-font-license-official-text/).
 
-You can use this font for various purposes including commercial use and embedded use without obtaining additional licenses from the author.
+You can use this font for various purposes including commercial and embedded use without obtaining additional authorization from the font author.
 
-When redistributing this font, you should indicate the original text or link of the OFL license agreement.
+When redistributing this font, you shall indicate the original text or link of the OFL license agreement.
 
-According to the OFL agreement, if derivative fonts are made using this font, the derivative fonts must also comply with the OFL agreement. You are not allowed to sell this font separately.
+According to the OFL agreement, if you create a derivative font using this font, the derivative font must also comply with the OFL agreement. You are not allowed to sell this font separately.
 
-The author reserves the font name "Z工坊 / Z Labs".
+The author reserves the font names "Z工坊" and "Z Labs".
 
-### Building Code
+### Build Code
 
 Licensed under the MIT License.
-
 
 ## Acknowledgments
 
 [Bits'N'Picas](https://github.com/kreativekorp/bitsnpicas) provides pixel glyph editing software.
 
-[@TakWolf（狼人小林）](https://github.com/TakWolf) provides technical support.
+[@TakWolf](https://github.com/TakWolf) provides technical support.
 
 ## Related Resources
 
-[字统网](https://zi.tools/) - A website covering the origin, form, pronunciation, meaning, and codes of Chinese characters
+[Zi.Tools](https://zi.tools/) - A website collecting the origin, form, pronunciation, meaning, and encoding of Chinese characters.
+
+## Project Stars Statistics
+
+[![Stargazers over time](https://starchart.cc/Astro-2539/ZLabs-Bitmap.svg?variant=adaptive)](https://starchart.cc/Astro-2539/ZLabs-Bitmap)
